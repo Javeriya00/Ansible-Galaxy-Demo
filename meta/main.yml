@@ -1,5 +1,15 @@
 ---
-name: Javeriya Fathima  # Replace with your role name
-version: 1.0.0  # Replace with your version
-
-# Other metadata can be added here, like dependencies, author, etc.
+galaxy_info:
+  author: Javeriya Fathima # Mandatory
+  description: It is my demo # Mandatory
+  license: None # Mandatory
+  min_ansible_version: 2.9  # Mandatory
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
+  categories:
+    - networking  # At least one category is mandatory
